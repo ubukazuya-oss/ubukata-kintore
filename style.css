@@ -1,1 +1,52 @@
+/* 基本スタイル */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
 
+header {
+    background-color: #3065a0; /* 青系の色 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2, h3 {
+    color: #3065a0;
+    border-bottom: 2px solid #3065a0;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #eee;
+    font-size: 0.8em;
+    margin-top: 50px;
+}
